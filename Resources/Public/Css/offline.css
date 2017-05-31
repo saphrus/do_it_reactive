@@ -1,0 +1,8 @@
+/*
+*	Offline Styles
+*/
+
+body.offline {
+	filter: grayscale(50%);
+	-webkit-filter: grayscale(50%);
+}

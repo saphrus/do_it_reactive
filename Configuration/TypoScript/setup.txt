@@ -1,0 +1,19 @@
+plugin.tx_doitreactive {
+
+    view {
+		templateRootPaths.0 = {$plugin.tx_doitreactive.view.templateRootPaths.0}
+		partialRootPaths.0 = {$plugin.tx_doitreactive.view.partialRootPaths.0}
+		layoutRootPaths.0 = {$plugin.tx_doitreactive.view.layoutRootPaths.0}
+	}
+
+}
+page.includeJSlibs {
+    jquery = http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js
+    jquery.external = 1
+    doItReactive = EXT:do_it_reactive/Resources/Public/Js/doItReactive.js
+}
+
+page.includeCSS {
+    lowBattery = EXT:do_it_reactive/Resources/Public/Css/lowBattery.css
+    offline = EXT:do_it_reactive/Resources/Public/Css/offline.css
+}
